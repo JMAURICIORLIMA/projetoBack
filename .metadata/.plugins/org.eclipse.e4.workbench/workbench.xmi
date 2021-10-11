@@ -220,7 +220,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_kPBxAbUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_kPBxAbUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j7WnEbUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
@@ -244,7 +244,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_lGgLkbUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.views.ProblemView"/>
+      <toolbar xmi:id="_lGgLkbUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j7gYELUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.JavadocView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Javadoc" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/javadoc.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.infoviews.JavadocView"/>
@@ -292,7 +292,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_k_mSULUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_k_mSULUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j7gYF7UGEeunObLkFUH8Ew" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.texteditor.templates.TemplatesView"/>
@@ -328,7 +328,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_kweRMbUGEeunObLkFUH8Ew" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView"/>
+      <toolbar xmi:id="_kweRMbUGEeunObLkFUH8Ew" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_j78c8bUGEeunObLkFUH8Ew" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Terminal" iconURI="platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.tm.terminal.view.ui.view.TerminalsView"/>
@@ -349,7 +349,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jfvCELUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jgAH0LUGEeunObLkFUH8Ew" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ijh4krUGEeunObLkFUH8Ew"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_IqviUCpGEeyXPbBouY8xUw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ijh4krUGEeunObLkFUH8Ew"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jfvpILUGEeunObLkFUH8Ew" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -377,7 +377,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jfyscLUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jgG1gLUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_ijgqbLUGEeunObLkFUH8Ew"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_IqzzwCpGEeyXPbBouY8xUw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_ijgqbLUGEeunObLkFUH8Ew"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jfyscbUGEeunObLkFUH8Ew" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1531,7 +1531,7 @@
   </commands>
   <commands xmi:id="_ii18ArUGEeunObLkFUH8Ew" elementId="org.eclipse.egit.ui.history.Merge" commandName="Merge" category="_iidhhrUGEeunObLkFUH8Ew"/>
   <commands xmi:id="_ii18A7UGEeunObLkFUH8Ew" elementId="org.eclipse.ui.window.switchToEditor" commandName="Switch to Editor" description="Switch to an editor" category="_iiZ3JrUGEeunObLkFUH8Ew"/>
-  <commands xmi:id="_ii3KILUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Show Contextual Help" description="Open the contextual help" category="_iiZ3KLUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ii3KILUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Show Context Help" description="Open the contextual help" category="_iiZ3KLUGEeunObLkFUH8Ew"/>
   <commands xmi:id="_ii3KIbUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.edit.text.java.comment" commandName="Comment" description="Turn the selected lines into Java comments" category="_iidhg7UGEeunObLkFUH8Ew"/>
   <commands xmi:id="_ii3KIrUGEeunObLkFUH8Ew" elementId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu" commandName="Show Occurrences in File Quick Menu" description="Shows the Occurrences in File quick menu" category="_iibsU7UGEeunObLkFUH8Ew"/>
   <commands xmi:id="_ii4YQLUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.edit.text.toggleInsertMode" commandName="Toggle Insert Mode" description="Toggle insert mode" category="_iiZQFLUGEeunObLkFUH8Ew"/>
@@ -2356,6 +2356,13 @@
   <commands xmi:id="_jVe54LUGEeunObLkFUH8Ew" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_iidhhrUGEeunObLkFUH8Ew"/>
   <commands xmi:id="_jVfg8LUGEeunObLkFUH8Ew" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_iidhhrUGEeunObLkFUH8Ew"/>
   <commands xmi:id="_jVgIALUGEeunObLkFUH8Ew" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_iidhhrUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISeMQSpGEeyXPbBouY8xUw" elementId="org.eclipse.compare.switchLeftAndRight" commandName="Swap Left and Right View" description="Switch the left and right sides in the compare editor" category="_iiZ3JLUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezUCpGEeyXPbBouY8xUw" elementId="org.eclipse.egit.ui.team.ReplaceWithTheirs" commandName="Replace Conflicting Files with Their Revision" category="_iicTYrUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezUSpGEeyXPbBouY8xUw" elementId="org.eclipse.egit.ui.internal.merge.ToggleCurrentChangesCommand" commandName="Ignore Changes from Ancestor to Current Version" description="Toggle ignoring changes only between the ancestor and the current version in a three-way merge comparison" category="_iicTYrUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezUipGEeyXPbBouY8xUw" elementId="org.eclipse.egit.ui.team.ReplaceWithOurs" commandName="Replace Conflicting Files with Our Revision" category="_iicTYrUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezUypGEeyXPbBouY8xUw" elementId="org.eclipse.debug.ui.commands.TerminateAll" commandName="Terminate/Disconnect All" description="Terminate/Disconnect All" category="_iicTYLUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezVCpGEeyXPbBouY8xUw" elementId="org.eclipse.jdt.ui.edit.text.java.raw.paste" commandName="Raw Paste" description="Paste and ignore smart insert setting" category="_iiZQFLUGEeunObLkFUH8Ew"/>
+  <commands xmi:id="_ISezVSpGEeyXPbBouY8xUw" elementId="org.eclipse.egit.ui.CompareWithEachOther" commandName="Compare with Each Other" description="Compare two files selected in the Compare Editor with each other." category="_iiZ3JLUGEeunObLkFUH8Ew"/>
   <addons xmi:id="_igGKArUGEeunObLkFUH8Ew" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_igGKA7UGEeunObLkFUH8Ew" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_igGKBLUGEeunObLkFUH8Ew" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2367,7 +2374,7 @@
   <addons xmi:id="_igGxFLUGEeunObLkFUH8Ew" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_igGxFbUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_igucILUGEeunObLkFUH8Ew" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYoeoCpGEeyXPbBouY8xUw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_iiZQELUGEeunObLkFUH8Ew" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_iiZQEbUGEeunObLkFUH8Ew" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
