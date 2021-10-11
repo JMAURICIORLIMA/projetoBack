@@ -13,18 +13,18 @@ import br.com.mv.main.model.Funcionario;
 @Repository
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long> {
 
-	@Query(value = "SELECT * FROM Employee", nativeQuery = true)
+	@Query(value = "SELECT * FROM Funcionario", nativeQuery = true)
 	List<Funcionario> allFuncionario();
 	
 	
-	@Query(value = "SELECT * FROM Employee WHERE cpf = :cpf", nativeQuery = true)
+	@Query(value = "SELECT * FROM Funcionario WHERE cpf = :cpf", nativeQuery = true)
 	Optional<Funcionario> filterByCpf(@Param("cpf") String cpf);
 
 	
-	@Query(value = "SELECT * FROM Employee  WHERE cafe like CONCAT(:cafe,'%')", nativeQuery = true)
+	@Query(value = "SELECT * FROM Funcionario  WHERE cafe like CONCAT(:cafe,'%')", nativeQuery = true)
 	List<Funcionario> filterByCafe(@Param("cafe") String cafe);
 
 	
-	@Query(value = "SELECT * FROM Employee WHERE id = :id", nativeQuery = true)
+	@Query(value = "SELECT * FROM Funcionario WHERE id = :id", nativeQuery = true)
 	Optional<Funcionario> filterById(@Param("id") Long id);
 }
